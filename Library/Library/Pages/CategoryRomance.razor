@@ -1,0 +1,44 @@
+﻿@page "/romance"
+<!-- page to filter books by genre -->
+
+<h1 class="page-title">All Books</h1>
+<div class="dropdown">
+    <button class="dropbtn">Order</button>
+    <div class="dropdown-content">
+                                                <!--Disabling href-->
+        <a href="" @onclick="DefaultQueryAsync" @onclick:preventDefault>Name</a>
+        <a href="" @onclick="AgeQueryAsync" @onclick:preventDefault>Age</a>
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Release date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @{
+
+            //foreach to display the books using the queries in bookoverview.cs
+            foreach (var book in query)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Description</td>
+                    <td>@book.ReleaseDate</td>
+                    <td>
+                        <a href="@($"book/{book.ISBN}")" class="btn btn-primary table-btn">
+                            Details
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+

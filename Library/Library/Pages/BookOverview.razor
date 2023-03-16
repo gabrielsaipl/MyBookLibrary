@@ -1,0 +1,49 @@
+﻿@page "/books"
+@using Library.Books;
+
+<h1 class="page-title">All Books</h1>
+<div class="dropdown">
+    <button class="dropbtn">Order</button>
+    <div class="dropdown-content"> 
+                                               <!--Disabling href-->
+        <a href="" @onclick="DefaultQueryAsync" @onclick:preventDefault>Name</a>
+        <a href="" @onclick="AgeQueryAsync" @onclick:preventDefault>Age</a>
+    </div>
+</div>
+
+<input id="searchbar" onkeyup="myFunction()" type="text"
+       name="search" placeholder="Search books by Title..">
+    <table id="table" class="table">
+        <thead>
+            <tr class="header">
+                <th>Title</th>
+                <th>Description</th>
+                <th>Release date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        
+        @{
+            
+            //foreach to display the books using the queries in bookoverview.cs
+                foreach (var book in query)
+            {
+                <tr class="book-search">
+                    <td>@book.Title</td>
+                    <td>@book.Description</td>
+                    <td>@book.ReleaseDate</td>
+                    <td>
+                        <a href="@($"book/{book.ISBN}")" class="btn btn-primary table-btn">
+                           Details
+                        </a>
+                    </td>
+                </tr>
+            }
+            } 
+        </tbody>
+    </table>
+    
+    
+
+

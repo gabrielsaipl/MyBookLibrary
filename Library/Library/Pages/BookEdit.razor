@@ -1,0 +1,52 @@
+﻿@page "/editbook/{ISBN}"
+@using Library.Books;
+
+<h1 class="page-title">Edit @Book.Title</h1>
+@if (!Saved)
+{
+<EditForm Model="@Book" OnValidSubmit="HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="form-group-row">
+        <label for="ISBN" class="col-sm-3">ISBN</label>
+        <InputText id="ISBN" class="form-control col-sm-8" @bind-Value="@Book.ISBN" placeholder="Enter the ISBN of the book"></InputText>
+            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.ISBN)"></ValidationMessage>
+    </div>
+
+    <div class="form-group-row">
+        <label for="Title" class="col-sm-3">Title</label>
+        <InputText id="Title" class="form-control col-sm-8" @bind-Value="@Book.Title" placeholder="Enter the title"></InputText>
+            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.Title)"></ValidationMessage>
+    </div>
+
+    <div class="form-group-row">
+        <label for="Description" class="col-sm-3">Description</label>
+        <InputText id="Description" class="form-control col-sm-8" @bind-Value="@Book.Description" placeholder="Enter a small Description"></InputText>
+            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.Description)"></ValidationMessage>
+    </div>
+
+    <div class="form-group-row">
+        <label for="ReleaseDate" class="col-sm-3">Release Year</label>
+        <InputText id="ReleaseDate" class="form-control col-sm-8" @bind-Value="@Book.ReleaseDate" placeholder="Enter the year the book was lauched"></InputText>
+            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.ReleaseDate)"></ValidationMessage>
+    </div>
+
+    <div class="form-group-row">
+        <label for="Category" class="col-sm-3">Category</label>
+        <InputText id="Category" class="form-control col-sm-8" @bind-Value="@Book.Category" placeholder="Enter the category"></InputText>
+            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.Category)"></ValidationMessage>
+        </div>
+
+    <div class="form-group-row">
+        <label for="Image" class="col-sm-3">Select an image for the book:</label>
+        <InputFile OnChange="OnInputFileChange" single ></InputFile>
+    </div>
+
+    <button type="submit" class="btn btn-primary edit-btn">Save</button>
+
+</EditForm>
+}
+else 
+{
+    <div class="alert @StatusClass">@Message</div>
+    <a class="btn btn-outline-primary" @onclick="@NavigateToOverview">Back to overview</a>
+}

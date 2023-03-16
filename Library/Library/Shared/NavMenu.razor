@@ -1,0 +1,62 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Library</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+@code {
+
+    private bool expandSubNav;
+
+}
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="books">
+                <span class="oi oi-book" aria-hidden="true"></span> Books
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="addbook">
+                <span class="oi oi-data-transfer-upload" aria-hidden="true"></span> New Book
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+        <NavLink class="nav-link" @onclick="()=>expandSubNav = !expandSubNav">
+                <span class="oi oi-beaker" aria-hidden="true"></span> Categories
+        </NavLink>
+        </div>
+        @if (expandSubNav)
+        {
+            <div class="nav-item px-3">
+                <NavLink class="expand-menu nav-link" href="romance">
+                    <span class="oi oi-heart"></span> Romance
+            </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="fantasy">
+                    <span class="oi oi-compass"></span> Fantasy
+            </NavLink>
+            </div>
+        }
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
