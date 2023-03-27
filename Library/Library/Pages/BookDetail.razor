@@ -1,4 +1,4 @@
-﻿@page "/book/{ISBN}"
+﻿@page "/book/{Id}"
 @inject IJSRuntime JSRuntime;
 @if (!Saved)
 {
@@ -7,7 +7,7 @@
     <a class="btn btn-danger" @onclick="@DeleteBook">
         Delete
     </a>
-    <a href="@($"editbook/{Book.ISBN}")" class="btn btn-primary">
+    <a href="@($"editbook/{Book.Id}")" class="btn btn-primary">
         Edit
     </a>
 
@@ -26,9 +26,15 @@
                     </div>
                 </div>
                 <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Author</label>
+                    <div class="col-sm-8">
+                        <label type="text" class="form-control-plaintext">@Book.Author</label>
+                    </div>
+                </div>
+                <div class="form-group row">
                     <label class="col-sm-4 col-form-label">Description</label>
                     <div class="col-sm-8">
-                        <label type="text" readonly class="form-control-plaintext">@Book.Description</label>
+                        <label type="text" readonly class="form-control-plaintext">@Book.FullDescription</label>
                     </div>
                 </div>
 

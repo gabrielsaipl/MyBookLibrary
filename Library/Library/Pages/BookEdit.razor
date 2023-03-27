@@ -1,4 +1,4 @@
-﻿@page "/editbook/{ISBN}"
+﻿@page "/editbook/{Id}"
 @using Library.Books;
 
 <h1 class="page-title">Edit @Book.Title</h1>
@@ -18,10 +18,22 @@
             <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.Title)"></ValidationMessage>
     </div>
 
+        <div class="form-group-row">
+            <label for="Description" class="col-sm-3">Description</label>
+            <InputText id="Description" class="form-control col-sm-8" @bind-Value="@Book.Author" placeholder="Enter the author"></InputText>
+            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.Author)"></ValidationMessage>
+        </div>
+
     <div class="form-group-row">
         <label for="Description" class="col-sm-3">Description</label>
-        <InputText id="Description" class="form-control col-sm-8" @bind-Value="@Book.Description" placeholder="Enter a small Description"></InputText>
-            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.Description)"></ValidationMessage>
+        <InputText id="Description" class="form-control col-sm-8" @bind-Value="@Book.SmallDescription" placeholder="Enter a small Description"></InputText>
+        <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.SmallDescription)"></ValidationMessage>
+    </div>
+
+    <div class="form-group-row">
+        <label for="Description" class="col-sm-3">Description</label>
+        <InputText id="Description" class="form-control col-sm-8" @bind-Value="@Book.FullDescription" placeholder="Enter the full Description"></InputText>
+            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.FullDescription)"></ValidationMessage>
     </div>
 
     <div class="form-group-row">

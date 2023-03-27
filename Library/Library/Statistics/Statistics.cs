@@ -10,24 +10,24 @@ namespace Library.Statistics
 
         public int TotalNumberBooks()
         {
-            var db = new BookDb();
-            var count = db.Books.Count(b => b.Id > 0);
+            /*var db = new BookDb();
+            var count = db.Books.Count(b => b.Id > 0);*/
 
-            return count;
+            return 0;
         }
 
         public int TotalNumberRomanceBooks()
         {
-            var db = new BookDb();
-            var count = db.Books.Count(b => b.Category.Contains("Romance") || b.Category.Contains("romance"));
-            return count;
+            /*var db = new BookDb();
+            var count = db.Books.Count(b => b.Category.Contains("Romance") || b.Category.Contains("romance"));*/
+            return 0;
         }
 
         public int TotalNumberFantasyBooks()
         {
-            var db = new BookDb();
-            var count = db.Books.Count(b => b.Category.Contains("Fantasy") || b.Category.Contains("fantasy"));
-            return count;
+            /*var db = new BookDb();
+            var count = db.Books.Count(b => b.Category.Contains("Fantasy") || b.Category.Contains("fantasy"));*/
+            return 0;
         }
     }
 }

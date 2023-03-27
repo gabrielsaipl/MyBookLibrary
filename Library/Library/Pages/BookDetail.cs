@@ -1,4 +1,5 @@
 ﻿using Library.Books;
+using Library.Services;
 using Microsoft.AspNetCore.Components;
 using System.Security.Policy;
 
@@ -7,27 +8,27 @@ namespace Library.Pages
     public partial class BookDetail
     {
         [Parameter]
-        public string ISBN { get ; set; }
+        public string Id { get; set; }
         protected bool Saved;
         protected string Message = string.Empty;
         protected string StatusClass = string.Empty;
         [Inject]
         public NavigationManager? NavigationManager { get; set; }
+        private HttpResponseMessage responseMessage;
         public Book Book { get; set; } = new Book();
+        [Inject]
+        public IBookDataService BookDataService { get; set; }
 
-        protected override Task OnInitializedAsync()
+        protected async override Task OnInitializedAsync()
         {
-            Saved = false;  
-            var db = new BookDb();
-            Book = db.Books.FirstOrDefault(b => b.ISBN == ISBN);
-            return base.OnInitializedAsync();
+            Book = await BookDataService.GetBookAsync(Id);
+            Saved = false;
+           
         }
 
         protected async Task DeleteBook()
         {
-            var db = new BookDb();
-            Book = db.Books.FirstOrDefault(b => b.ISBN == ISBN);
-            if (Book.Id <= 10)
+            if (int.Parse(Id) <= 10)
             {
                 StatusClass = "alert-danger";
                 Message = "You can't delete my Books !!!!";
@@ -35,12 +36,18 @@ namespace Library.Pages
             }
             else
             {
-                Saved = false;
-                db.Books.Remove(Book);
-                db.SaveChanges();
-                StatusClass = "alert-success";
-                Message = "Book deleted successfully.";
-                Saved = true;
+                responseMessage = await BookDataService.DeleteBookAsync(Id);
+                if (responseMessage.IsSuccessStatusCode)
+                {
+                    StatusClass = "alert-success";
+                    Message = "Book deleted successfully.";
+                    Saved = true;
+                }
+                else {
+                    StatusClass = "alert-success";
+                    Message = "Couldnt delete book.";
+                    Saved = true;
+                }
             }
         }
         protected void NavigateToOverview()

@@ -5,7 +5,6 @@
 @if (!Saved)
 {
 <EditForm Model="@Book" OnValidSubmit="HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
-    <DataAnnotationsValidator></DataAnnotationsValidator>
     <div class="form-group-row">
         <label for="ISBN" class="col-sm-3">ISBN</label>
         <InputText id="ISBN" class="form-control col-sm-8" @bind-Value="@Book.ISBN" placeholder="Enter the ISBN of the book"></InputText>
@@ -18,10 +17,22 @@
             <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.Title)"></ValidationMessage>
     </div>
 
+        <div class="form-group-row">
+            <label for="Title" class="col-sm-3">Author</label>
+            <InputText id="Title" class="form-control col-sm-8" @bind-Value="@Book.Author" placeholder="Enter the Author"></InputText>
+            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.Author)"></ValidationMessage>
+        </div>
+
     <div class="form-group-row">
-        <label for="Description" class="col-sm-3">Description</label>
-        <InputText id="Description" class="form-control col-sm-8" @bind-Value="@Book.Description" placeholder="Enter a small Description"></InputText>
-            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.Description)"></ValidationMessage>
+        <label for="Description" class="col-sm-3">Small Description</label>
+            <InputText id="Description" class="form-control col-sm-8" @bind-Value="@Book.SmallDescription" placeholder="Enter a small Description"></InputText>
+            <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.SmallDescription)"></ValidationMessage>
+    </div>
+
+    <div class="form-group-row">
+        <label for="Description" class="col-sm-3">Full Description</label>
+            <InputText id="Description" class="form-control col-sm-8" @bind-Value="@Book.FullDescription" placeholder="Enter the Full Description"></InputText>
+        <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Book.FullDescription)"></ValidationMessage>
     </div>
 
     <div class="form-group-row">

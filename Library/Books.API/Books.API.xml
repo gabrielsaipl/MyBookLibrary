@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Books.API</name>
+    </assembly>
+    <members>
+        <member name="M:Books.API.Controllers.BooksController.GetBooks(System.String,System.Int32,System.Int32)">
+            <summary>
+            Get all the books
+            </summary>
+            <param name="sort_by">option to sort the list</param>
+            <param name="pageNumber">option to include the page number</param>
+            <param name="pageSize">option to include the page size (max is 16)</param>
+            <returns>An IEnumerable of BookDto</returns>
+        </member>
+        <member name="M:Books.API.Controllers.BooksController.GetBook(System.Int32)">
+            <summary>
+            Get a book with a specific Id
+            </summary>
+            <param name="id">The Id of the book</param>
+            <returns>An IActionResult</returns>
+            <response code = "200">Returns the requested book</response>
+        </member>
+        <member name="M:Books.API.Controllers.BooksController.CreateBook(Books.API.Models.BookDto)">
+            <summary>
+            Create a new book
+            </summary>
+            <param name="book">The book to add to the database</param>
+            <returns>An ActionResult of BookDto</returns>
+        </member>
+        <member name="M:Books.API.Controllers.BooksController.UpdateBook(System.Int32,Books.API.Models.BookForUpdateDto)">
+            <summary>
+            Update a book
+            </summary>
+            <param name="Bookid">The Id of the book to modify</param>
+            <param name="book">The book entity to modify</param>
+            <returns>An ActionResult</returns>
+        </member>
+        <member name="M:Books.API.Controllers.BooksController.PartiallyUpdateBook(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Books.API.Models.BookForUpdateDto})">
+            <summary>
+            update specific atributes of a book
+            </summary>
+            <param name="Bookid">The Id of the book to modify</param>
+            <param name="patchDocument"> variable containing the patch operations to complete</param>
+            <returns>An ActionResult</returns>
+        </member>
+        <member name="M:Books.API.Controllers.BooksController.DeletePointOfInterest(System.Int32)">
+            <summary>
+            Delete a book
+            </summary>
+            <param name="Bookid">The Id of the book to delete</param>
+            <returns>ActionResult</returns>
+        </member>
+        <member name="M:Books.API.Controllers.BooksController.GetRomanceBooks(System.String,System.Int32,System.Int32)">
+            <summary>
+            Get all the books that have "romance" in the category
+            </summary>
+            <param name="sort_by">option to sort the list</param>
+            <param name="pageNumber">option to include the page number</param>
+            <param name="pageSize">option to include the page size (max is 16)</param>
+            <returns></returns>
+        </member>
+        <member name="M:Books.API.Controllers.BooksController.GetFantasyBooks(System.String,System.Int32,System.Int32)">
+            <summary>
+            Get all the books that have "fantasy" in the category
+            </summary>
+            <param name="sort_by">option to sort the list</param>
+            <param name="pageNumber">option to include the page number</param>
+            <param name="pageSize">option to include the page size (max is 16)</param>
+            <returns></returns>
+        </member>
+        <member name="T:Books.API.Migrations.BookInfoDbInitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Books.API.Migrations.BookInfoDbInitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Books.API.Migrations.BookInfoDbInitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Books.API.Migrations.BookInfoDbInitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Books.API.Migrations.DataSeed">
+            <inheritdoc />
+        </member>
+        <member name="M:Books.API.Migrations.DataSeed.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Books.API.Migrations.DataSeed.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Books.API.Migrations.DataSeed.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Books.API.Models.BookDto">
+            <summary>
+            A DTO for a Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookDto.Id">
+            <summary>
+            the Id of the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookDto.ISBN">
+            <summary>
+            the ISBN of the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookDto.Title">
+            <summary>
+            the Title of the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookDto.SmallDescription">
+            <summary>
+            A small description for the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookDto.FullDescription">
+            <summary>
+            A full description of the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookDto.ReleaseDate">
+            <summary>
+            The year the Book was released
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookDto.Author">
+            <summary>
+            The author of the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookDto.Category">
+            <summary>
+            The Category(ies) of the Book
+            </summary>
+        </member>
+        <member name="T:Books.API.Models.BookForUpdateDto">
+            <summary>
+            A DTO for an updated Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookForUpdateDto.ISBN">
+            <summary>
+            the ISBN of the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookForUpdateDto.Title">
+            <summary>
+            the Title of the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookForUpdateDto.SmallDescription">
+            <summary>
+            A small description for the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookForUpdateDto.FullDescription">
+            <summary>
+            A full description of the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookForUpdateDto.ReleaseDate">
+            <summary>
+            The year the Book was released
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookForUpdateDto.Author">
+            <summary>
+            The author of the Book
+            </summary>
+        </member>
+        <member name="P:Books.API.Models.BookForUpdateDto.Category">
+            <summary>
+            The Category(ies) of the Book
+            </summary>
+        </member>
+    </members>
+</doc>

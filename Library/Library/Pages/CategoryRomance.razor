@@ -6,8 +6,10 @@
     <button class="dropbtn">Order</button>
     <div class="dropdown-content">
                                                 <!--Disabling href-->
-        <a href="" @onclick="DefaultQueryAsync" @onclick:preventDefault>Name</a>
-        <a href="" @onclick="AgeQueryAsync" @onclick:preventDefault>Age</a>
+        <a href="" @onclick="OrderByTitleAscending" @onclick:preventDefault>Name(ascending)</a>
+        <a href="" @onclick="OrderByTitleDescending" @onclick:preventDefault>Name(descending)</a>
+        <a href="" @onclick="OrderByAgeAscending" @onclick:preventDefault>Age(ascending)</a>
+        <a href="" @onclick="OrderByAgeDescending" @onclick:preventDefault>Age(descending)</a>
     </div>
 </div>
 <table class="table">
@@ -24,14 +26,14 @@
         @{
 
             //foreach to display the books using the queries in bookoverview.cs
-            foreach (var book in query)
+            foreach (var book in Books)
             {
                 <tr>
                     <td>@book.Title</td>
-                    <td>@book.Description</td>
+                    <td>@book.SmallDescription</td>
                     <td>@book.ReleaseDate</td>
                     <td>
-                        <a href="@($"book/{book.ISBN}")" class="btn btn-primary table-btn">
+                        <a href="@($"book/{book.Id}")" class="btn btn-primary table-btn">
                             Details
                         </a>
                     </td>

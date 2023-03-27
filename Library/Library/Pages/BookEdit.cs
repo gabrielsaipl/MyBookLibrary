@@ -1,4 +1,5 @@
 ﻿using Library.Books;
+using Library.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.VisualBasic;
@@ -11,27 +12,27 @@ namespace Library.Pages
     public partial class BookEdit
     {
         [Parameter]
-        public string ISBN { get; set; }
-        public Book Book { get; private set; }
+        public string Id { get; set; }
+        public Book Book { get; private set; } = new Book();
         protected string Message = string.Empty;
         [Inject]
         public NavigationManager? NavigationManager { get; set; }
         protected string StatusClass= string.Empty;
+        [Inject]
+        public IBookDataService BookDataService { get; set; }
+        private HttpResponseMessage responseMessage;
         protected bool Saved;
 
-        protected override Task OnInitializedAsync()
+        protected async override Task OnInitializedAsync()
         {
-
             Saved = false;
-            var db = new BookDb();
-            Book = db.Books.FirstOrDefault(b => b.ISBN == ISBN);
-            if (Book.Id <= 10)
+            Book = await BookDataService.GetBookAsync(Id);
+            if (int.Parse(Id) <= 10)
             {
                 StatusClass = "alert-danger";
                 Message = "You can't edit by books !!!";
                 Saved = true;
             }
-            return base.OnInitializedAsync();
         }
         private IReadOnlyList<IBrowserFile> selectedFiles;
         private void OnInputFileChange(InputFileChangeEventArgs e)
@@ -44,35 +45,47 @@ namespace Library.Pages
 
     protected async Task HandleValidSubmit()
         {
-                //saving the changes in the book
-                Saved = false;
-                var db = new BookDb();
-                db.Entry(Book).State = EntityState.Modified;
-                db.SaveChanges();
+               //saving the changes in the book
+               Saved = false;
+               JsonContent content = JsonContent.Create(Book);
+               responseMessage = await BookDataService.UpdateBook(Id, content);
+            if (responseMessage.IsSuccessStatusCode)
+            {
                 //saving the file to the images folder
-                var file = selectedFiles[0];
-                var fileName = Path.GetFileName(file.Name);
-                Stream stream = file.OpenReadStream();
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(),@"wwwroot\images", Path.GetFileName(file.Name));
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                if (selectedFiles != null)
                 {
-                    await stream.CopyToAsync(fileStream);
+                    var file = selectedFiles[0];
+                    var fileName = Path.GetFileName(file.Name);
+                    Stream stream = file.OpenReadStream();
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\images", Path.GetFileName(file.Name));
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await stream.CopyToAsync(fileStream);
+                    }
+                    var imageName = $"{Directory.GetCurrentDirectory()}\\wwwroot\\images\\image{Book.Id.ToString()}.jpg";
+
+                    if (!File.Exists(imageName))
+                    {
+                        File.Move(filePath, imageName);
+                    }
+                    else
+                    {
+                        //replace image if it already exists with the same name
+                        File.Delete(imageName);
+                        File.Move(filePath, imageName);
+                    }
                 }
-                var imageName = $"{Directory.GetCurrentDirectory()}\\wwwroot\\images\\image{Book.Id.ToString()}.jpg";
-            if (!File.Exists(imageName))
-            {
-                File.Move(filePath, imageName);
-            }
-            else
-            {
-                //replace image if it already exists with the same name
-                File.Delete(imageName);
-                File.Move(filePath, imageName);
-            }
-                
+
                 StatusClass = "alert-success";
                 Message = "Book edited successfully.";
                 Saved = true;
+            }
+            else 
+            { 
+                StatusClass = "alert-danger";
+                Message = "Book not edited successfully.";
+                Saved = true;
+            }
             
 
         }

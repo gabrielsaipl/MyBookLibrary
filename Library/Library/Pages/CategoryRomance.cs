@@ -1,55 +1,79 @@
 ﻿using Library.Books;
+using Library.Services;
+using Microsoft.AspNetCore.Components;
 
 namespace Library.Pages
 {
     public partial class CategoryRomance
     {
-        //initialize query variable
-        private List<Book> query = new List<Book>();
+        //initialize Book variables
+        private List<Book> Books { get; set; } = new List<Book>();
+        private List<Book> Books1 { get; set; } = new List<Book>();
+        private List<Book> Books2 { get; set; } = new List<Book>();
+        private int counter2 = 0;
+        private List<Book> Books3 { get; set; } = new List<Book>();
+        private int counter3 = 0;
+        private List<Book> Books4 { get; set; } = new List<Book>();
+        private int counter4 = 0;
+
+        [Inject]
+        public IBookDataService BookDataService { get; set; }
 
         //task to create table after rendering component
-        protected override async Task OnAfterRenderAsync(bool FirstRender)
+        /*protected async override Task OnInitializedAsync()
         {
-            if (FirstRender)
+            Books = (await BookDataService.GetBooksAsync()).ToList();
+
+        }*/
+        protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+            if (firstRender)
             {
-                query = await DefaultQueryAsync();
+                Books = (await BookDataService.GetRomanceBooksAsync()).ToList();
+                Books1 = Books;
                 StateHasChanged();
             }
+
         }
 
-        //async tasks to change the table
-
-        public async Task<List<Book>> DefaultQueryAsync()
+        private async Task<List<Book>> OrderByTitleAscending()
         {
-            return await Task.FromResult(query = DefaultQuery());
+            Books = Books1;
+            return Books;
         }
-
-        public async Task<List<Book>> AgeQueryAsync()
+        private async Task<List<Book>> OrderByTitleDescending()
         {
-            return await Task.FromResult(query = AgeQuery());
-        }
 
-        //Queries performed
-        //Query to filter the books by the category romance
-        public List<Book> DefaultQuery()
+            if (counter2 == 0)
+            {
+                Books2 = (await BookDataService.GetRomanceBooksByTitleDescAsync()).ToList();
+                counter2++;
+            }
+            Books = Books2;
+            return Books;
+        }
+        private async Task<List<Book>> OrderByAgeAscending()
         {
-            var db = new BookDb();
-            var query = (from book in db.Books
-                         where book.Category.Contains("Romance")
-                         orderby book.Title ascending
-                         select book).ToList();
-
-            return query;
+            if (counter3 == 0)
+            {
+                Books3 = (await BookDataService.GetRomanceBooksByAgeAsync()).ToList();
+                counter3++;
+            }
+            Books = Books3;
+            return Books;
         }
 
-        public List<Book> AgeQuery()
+        private async Task<List<Book>> OrderByAgeDescending()
         {
-            var db = new BookDb();
-            var query = (from book in db.Books
-                         where book.Category.Contains("Romance")
-                         orderby book.ReleaseDate ascending
-                         select book).ToList();
-            return query;
+            if (counter4 == 0)
+            {
+                Books4 = (await BookDataService.GetRomanceBooksByAgeDescAsync()).ToList(); ;
+                counter4++;
+            }
+            Books = Books4;
+            return Books;
         }
+
+
     }
 }

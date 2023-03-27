@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Books", "Library.Books\Library.Books.csproj", "{EDEB4B39-7BF0-44BA-843D-7A52DACBDBE2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.API", "Books.API\Books.API.csproj", "{7A563571-8A56-4499-9964-9ABFF3BBA941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EDEB4B39-7BF0-44BA-843D-7A52DACBDBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDEB4B39-7BF0-44BA-843D-7A52DACBDBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDEB4B39-7BF0-44BA-843D-7A52DACBDBE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A563571-8A56-4499-9964-9ABFF3BBA941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A563571-8A56-4499-9964-9ABFF3BBA941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A563571-8A56-4499-9964-9ABFF3BBA941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A563571-8A56-4499-9964-9ABFF3BBA941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

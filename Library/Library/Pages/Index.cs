@@ -10,11 +10,11 @@ namespace Library.Pages
         protected override Task OnInitializedAsync()
         {
             
-            var db = new BookDb();
+            //var db = new BookDb();
 
 
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BookDb>());
-            InitializaBooks();
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BookDb>());
+            //InitializaBooks();
 
             return base.OnInitializedAsync();
         }
@@ -26,7 +26,7 @@ namespace Library.Pages
             //db.Database.ExecuteSqlCommand("TRUNCATE TABLE [Books]");
 
             //check if there are any books
-            if (!db.Books.Any())
+            /*if (!db.Books.Any())
             {
                 var b1 = new Book
             
@@ -128,7 +128,7 @@ namespace Library.Pages
                 }
                 db.SaveChanges();
             }
-
+*/
         }
     }
 }
