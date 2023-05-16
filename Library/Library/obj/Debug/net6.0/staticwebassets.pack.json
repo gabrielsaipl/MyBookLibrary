@@ -1,127 +1,127 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Library.bundle.scp.css",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Library.bundle.scp.css",
       "PackagePath": "staticwebassets\\Library.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\books.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\books.jpg",
       "PackagePath": "staticwebassets\\Images\\books.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image1.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image1.jpg",
       "PackagePath": "staticwebassets\\Images\\image1.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image10.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image10.jpg",
       "PackagePath": "staticwebassets\\Images\\image10.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image12.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image12.jpg",
       "PackagePath": "staticwebassets\\Images\\image12.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image13.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image13.jpg",
       "PackagePath": "staticwebassets\\Images\\image13.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image14.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image14.jpg",
       "PackagePath": "staticwebassets\\Images\\image14.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image15.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image15.jpg",
       "PackagePath": "staticwebassets\\Images\\image15.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image2.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image2.jpg",
       "PackagePath": "staticwebassets\\Images\\image2.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image3.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image3.jpg",
       "PackagePath": "staticwebassets\\Images\\image3.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image4.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image4.jpg",
       "PackagePath": "staticwebassets\\Images\\image4.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image5.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image5.jpg",
       "PackagePath": "staticwebassets\\Images\\image5.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image6.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image6.jpg",
       "PackagePath": "staticwebassets\\Images\\image6.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image7.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image7.jpg",
       "PackagePath": "staticwebassets\\Images\\image7.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image8.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image8.jpg",
       "PackagePath": "staticwebassets\\Images\\image8.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image9.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image9.jpg",
       "PackagePath": "staticwebassets\\Images\\image9.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\library.jpg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\library.jpg",
       "PackagePath": "staticwebassets\\Images\\library.jpg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\js\\js.js",
+      "Id": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\js\\js.js",
       "PackagePath": "staticwebassets\\js\\js.js"
     },
     {

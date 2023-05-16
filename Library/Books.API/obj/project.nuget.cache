@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s3TRG7NJjtwiLLXlVMMDQl5AXSgEy0uM4gSfk8aYi88OBgUeAxdI9DwE3YsYhrHz0HOCBvZ0C2uAWjanGyWIFw==",
+  "dgSpecHash": "FnGRNqmOPezKlJgYEpXS9Nd9+P0W+YN8b1GNQwgk3Q/bDYkTMubwdQd5rxOAzEQIyzlQtGLUHtEoRnztKBj3rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\Library\\Books.API\\Books.API.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Books.API\\Books.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

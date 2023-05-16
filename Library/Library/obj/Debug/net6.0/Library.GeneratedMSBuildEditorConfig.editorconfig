@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Library
 build_property.RootNamespace = Library
-build_property.ProjectDir = C:\Users\gabri\source\repos\Library\Library\
+build_property.ProjectDir = C:\Users\gabri\source\repos\MyBookLibrary\Library\Library\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gabri\source\repos\Library\Library
+build_property.MSBuildProjectDirectory = C:\Users\gabri\source\repos\MyBookLibrary\Library\Library
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gabri/source/repos/Library/Library/App.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/BookCreate.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/BookCreate.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0NyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/BookDetail.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/BookDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0RldGFpbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/BookEdit.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/BookEdit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0VkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/BookOverview.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/BookOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va092ZXJ2aWV3LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/CategoryFantasy.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/CategoryFantasy.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlGYW50YXN5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/CategoryRomance.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/CategoryRomance.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlSb21hbmNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/Index.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/_Imports.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Shared/MainLayout.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-83zf23ogl0
 
-[C:/Users/gabri/source/repos/Library/Library/Shared/NavMenu.razor]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zzry4awsgr
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/Error.cshtml]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/_Host.cshtml]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/Library/Library/Pages/_Layout.cshtml]
+[C:/Users/gabri/source/repos/MyBookLibrary/Library/Library/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

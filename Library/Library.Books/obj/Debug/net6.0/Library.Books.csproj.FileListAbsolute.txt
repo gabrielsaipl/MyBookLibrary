@@ -12,3 +12,17 @@ C:\Users\gabri\source\repos\Library\Library.Books\obj\Debug\net6.0\Library.Books
 C:\Users\gabri\source\repos\Library\Library.Books\obj\Debug\net6.0\ref\Library.Books.dll
 C:\Users\gabri\source\repos\Library\Library.Books\bin\Debug\net6.0\Library.Books.runtimeconfig.json
 C:\Users\gabri\source\repos\Library\Library.Books\obj\Debug\net6.0\Library.Books.genruntimeconfig.cache
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\bin\Debug\net6.0\Library.Books.deps.json
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\bin\Debug\net6.0\Library.Books.runtimeconfig.json
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\bin\Debug\net6.0\Library.Books.dll
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\bin\Debug\net6.0\Library.Books.pdb
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\Library.Books.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\Library.Books.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\Library.Books.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\Library.Books.AssemblyInfo.cs
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\Library.Books.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\Library.Books.dll
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\refint\Library.Books.dll
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\Library.Books.pdb
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\Library.Books.genruntimeconfig.cache
+C:\Users\gabri\source\repos\MyBookLibrary\Library\Library.Books\obj\Debug\net6.0\ref\Library.Books.dll

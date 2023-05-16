@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UQqqL56zCjgzfv7a/gGvvPFQgsTf3Kpd1OHX1bfxexSx5+Ao4B2J5yexF/xJr+P2IsnvcUJgLkixETFuSZ5xYA==",
+  "dgSpecHash": "bR4ud1CI1T6iAQwqWs89uavtX6FmInVGK3D3tEVOFxwEhtyP/36fXuCylBG4Gan+FhRiHG+bCLMPNsn4+X0vAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\Library\\Library.Books\\Library.Books.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library.Books\\Library.Books.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

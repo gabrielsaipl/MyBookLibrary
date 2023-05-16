@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ikgF64QsG9E6fZ7Wr7IsaH6sQg7Nts/3KZfq0E6FW0Q=",
+  "Hash": "L/Rq77AGjRdSvvVSzUyA0b4gNnZiIu7kpkJgP1dQmyQ=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Library\\wwwroot",
       "Source": "Library",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Library.styles.css",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Library.styles.css",
       "SourceId": "Library",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Library",
       "RelativePath": "Library.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Library.styles.css"
+      "OriginalItemSpec": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Library.styles.css"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Library.bundle.scp.css",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Library.bundle.scp.css",
       "SourceId": "Library",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Library",
       "RelativePath": "Library.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Library.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Library.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\css\\site.css",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\favicon.ico",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\books.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\books.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/books.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\books.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image1.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image1.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image1.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image1.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image10.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image10.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image10.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image10.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image12.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image12.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image12.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image12.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image13.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image13.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image13.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image13.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image14.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image14.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image14.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image14.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image15.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image15.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image15.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image15.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image2.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image2.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image2.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image2.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image3.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image3.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image3.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image3.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image4.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image4.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image4.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image4.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image5.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image5.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image5.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image5.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image6.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image6.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image6.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image6.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image7.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image7.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image7.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image7.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image8.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image8.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image8.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image8.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\image9.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\image9.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/image9.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image9.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\Images\\library.jpg",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\Images\\library.jpg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "Images/library.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\library.jpg"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\js\\js.js",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\js\\js.js",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Library\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\MyBookLibrary\\Library\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "js/js.js",
       "AssetKind": "All",
